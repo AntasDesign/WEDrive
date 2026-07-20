@@ -1,0 +1,1333 @@
+{
+  "schemaVersion": 1,
+  "id": "built-in-demo",
+  "name": "Built-in Demo Data",
+  "version": "1.0.0",
+  "description": "Bundled WeDrive demonstration dataset",
+  "data": {
+    "transports": [
+      {
+        "ID": "T100",
+        "FO": "6100000023",
+        "Warehouse": "DS Heidelberg",
+        "LoadingTimeSlot": "08:30 - 14:30",
+        "Vehicle": "TRUCK-01",
+        "Driver": "John Doe",
+        "Status": "Ready for execution",
+        "TransportationOrderUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237f"
+      },
+      {
+        "ID": "T200",
+        "FO": "6100000024",
+        "Warehouse": "DS Heidelberg",
+        "LoadingTimeSlot": "15:00 - 21:00",
+        "Vehicle": "VAN-05",
+        "Driver": "Jane Smith",
+        "Status": "Planned",
+        "TransportationOrderUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237g"
+      },
+      {
+        "ID": "T300",
+        "FO": "6100013238",
+        "Warehouse": "FPG centerpoint",
+        "LoadingTimeSlot": "11:00 - 13:00",
+        "Vehicle": "TRUCK-A",
+        "Driver": "Lucas Wou",
+        "Status": "Ready for execution",
+        "TransportationOrderUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237h"
+      },
+      {
+        "ID": "T400",
+        "FO": "6100013239",
+        "Warehouse": "FPG Xpress Parklane",
+        "LoadingTimeSlot": "15:00 - 17:00",
+        "Vehicle": "VAN-06",
+        "Driver": "Nethan Narobi",
+        "Status": "Planned",
+        "TransportationOrderUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237i"
+      },
+      {
+        "ID": "T500",
+        "FO": "6100013489",
+        "Warehouse": "Distribution Center LDC3",
+        "LoadingTimeSlot": "09:00 - 10:00",
+        "Vehicle": "VAN-06",
+        "Driver": "John Dsouza ",
+        "Status": "Planned",
+        "TransportationOrderUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237j"
+      }
+    ],
+    "stops": [
+      {
+        "ID": "S1",
+        "TransportID": "T100",
+        "CustomerName": "Central Warehouse",
+        "Street": "Im Schuhmachergewann 6",
+        "City": "Heidelberg",
+        "PostalCode": "DE 69123",
+        "lng": 8.6400152,
+        "lat": 49.4253767,
+        "Type": "Warehouse",
+        "Sequence": 1,
+        "Status": "Pending",
+        "StatusNext": "Next",
+        "DeliveryTimeSlot": "08:30 - 09:00",
+        "CustomerTel": "+49 123 456 789",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237h",
+        "LocationId": "54335"
+      },
+      {
+        "ID": "S2",
+        "TransportID": "T100",
+        "CustomerName": "Hellena Schwarz",
+        "Street": "Rothenburger Str. 2",
+        "City": "Ansbach",
+        "PostalCode": "DE 91522",
+        "lng": 10.5601,
+        "lat": 49.3103,
+        "Type": "Customer",
+        "Sequence": 2,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "10:30 - 11:30",
+        "CustomerTel": "+49 435 643 656",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237i",
+        "LocationId": "54336"
+      },
+      {
+        "ID": "S3",
+        "TransportID": "T100",
+        "CustomerName": "Bury John",
+        "Street": "Mozartstraße 2",
+        "City": "Ulm",
+        "PostalCode": "DE 89075",
+        "lng": 9.9876076,
+        "lat": 48.4010822,
+        "Type": "Customer",
+        "Sequence": 3,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "12:00 - 13:00",
+        "CustomerTel": "+49 123 224 325",
+        "Hint": "bis 14:00 Uhr Delivery at the back of the yard.Take the scond gate",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237j",
+        "LocationId": "54337"
+      },
+      {
+        "ID": "S4",
+        "TransportID": "T100",
+        "CustomerName": "Hans Zimmer",
+        "Street": "Rotenwaldstraße 146",
+        "City": "Stuttgart",
+        "PostalCode": "DE 70197",
+        "lng": 9.1470362,
+        "lat": 48.7663107,
+        "Type": "Customer",
+        "Sequence": 4,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "13:15 - 13:45",
+        "CustomerTel": "+49 435 643 656",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237k",
+        "LocationId": "54338"
+      },
+      {
+        "ID": "S5",
+        "TransportID": "T100",
+        "CustomerName": "Central Warehouse",
+        "Street": "Im Schuhmachergewann 6",
+        "City": "Heidelberg",
+        "PostalCode": "DE 69123",
+        "lng": 8.6400152,
+        "lat": 49.4253767,
+        "Type": "Customer",
+        "Sequence": 5,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "14:00 - 14:30",
+        "CustomerTel": "+49 123 456 789",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237l",
+        "LocationId": "54339"
+      },
+      {
+        "ID": "S1T200",
+        "TransportID": "T200",
+        "CustomerName": "Central Warehouse",
+        "Street": "Im Schuhmachergewann 6",
+        "City": "Heidelberg",
+        "PostalCode": "DE 69123",
+        "lng": 8.6400152,
+        "lat": 49.4253767,
+        "Type": "Warehouse",
+        "Sequence": 1,
+        "Status": "Pending",
+        "StatusNext": "Next",
+        "DeliveryTimeSlot": "08:30 - 09:00",
+        "CustomerTel": "+49 123 456 789",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237h",
+        "LocationId": "54335"
+      },
+      {
+        "ID": "S2T200",
+        "TransportID": "T200",
+        "CustomerName": "Hellena Schwarz",
+        "Street": "Rothenburger Str. 2",
+        "City": "Ansbach",
+        "PostalCode": "DE 91522",
+        "lng": 10.5601,
+        "lat": 49.3103,
+        "Type": "Customer",
+        "Sequence": 2,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "10:30 - 11:30",
+        "CustomerTel": "+49 435 643 656",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237i",
+        "LocationId": "54336"
+      },
+      {
+        "ID": "S3T200",
+        "TransportID": "T200",
+        "CustomerName": "Central Warehouse",
+        "Street": "Im Schuhmachergewann 6",
+        "City": "Heidelberg",
+        "PostalCode": "DE 69123",
+        "lng": 8.6400152,
+        "lat": 49.4253767,
+        "Type": "Customer",
+        "Sequence": 3,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "14:00 - 14:30",
+        "CustomerTel": "+49 123 456 789",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd16237l",
+        "LocationId": "54339"
+      },
+      {
+        "ID": "SFP1",
+        "TransportID": "T300",
+        "CustomerName": "FPG Benoi",
+        "Street": "5 Joo Koon Cir",
+        "City": "Singapore",
+        "PostalCode": "629118",
+        "lng": 103.6709896,
+        "lat": 1.3223973,
+        "Type": "Warehouse",
+        "Sequence": 1,
+        "Status": "Pending",
+        "StatusNext": "Next",
+        "DeliveryTimeSlot": "11:30 - 12:30",
+        "CustomerTel": "+65 43564 2145",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp1",
+        "LocationId": "54355"
+      },
+      {
+        "ID": "SFP2",
+        "TransportID": "T300",
+        "CustomerName": "FPG Xpress Parklane",
+        "Street": "11/12 Parklane Shopping Mall",
+        "City": "Singapore",
+        "PostalCode": "188307",
+        "lng": 103.8470134,
+        "lat": 1.3007791,
+        "Type": "Customer",
+        "Sequence": 2,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "12:30 - 14:30",
+        "CustomerTel": "+65 43564 3656",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp2",
+        "LocationId": "54356"
+      },
+      {
+        "ID": "SFP3",
+        "TransportID": "T300",
+        "CustomerName": "FPG Benoi",
+        "Street": "5 Joo Koon Cir",
+        "City": "Singapore",
+        "PostalCode": "629118",
+        "lng": 103.6709896,
+        "lat": 1.3223973,
+        "Type": "Customer",
+        "Sequence": 3,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "14:30 - 15:30",
+        "CustomerTel": "+65 43564 2145",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp3",
+        "LocationId": "54357"
+      },
+      {
+        "ID": "SFP4",
+        "TransportID": "T400",
+        "CustomerName": "FPG Xpress Parklane",
+        "Street": "11/12 Parklane Shopping Mall",
+        "City": "Singapore",
+        "PostalCode": "188307",
+        "lng": 103.8470134,
+        "lat": 1.3007791,
+        "Type": "Warehouse",
+        "Sequence": 1,
+        "Status": "Pending",
+        "StatusNext": "Next",
+        "DeliveryTimeSlot": "14:30 - 15:30",
+        "CustomerTel": "+65 43564 3656",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp4",
+        "LocationId": "54358"
+      },
+      {
+        "ID": "SFP5",
+        "TransportID": "T400",
+        "CustomerName": "Mrs. Adele, Block 224",
+        "Street": "224 Bishan St. 23",
+        "City": "Singapore",
+        "PostalCode": "570224",
+        "lng": 103.8451911,
+        "lat": 1.3589801,
+        "Type": "Customer",
+        "Sequence": 2,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "15:30 - 16:30",
+        "CustomerTel": "+65 43564 3331",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp5",
+        "LocationId": "54359"
+      },
+      {
+        "ID": "SFP6",
+        "TransportID": "T400",
+        "CustomerName": "Munsoon",
+        "Street": "Rajah Tower, 32 Jln Rajah",
+        "City": "Singapore",
+        "PostalCode": "329141",
+        "lng": 103.8463059,
+        "lat": 1.3275613,
+        "Type": "Customer",
+        "Sequence": 3,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "16:30 - 17:30",
+        "CustomerTel": "+65 43564 3579",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp6",
+        "LocationId": "54360"
+      },
+      {
+        "ID": "SFP7",
+        "TransportID": "T400",
+        "CustomerName": "Miss Fatima C.",
+        "Street": "Residences @ Evelyn, 15 Evelyn Rd",
+        "City": "Singapore",
+        "PostalCode": "309311",
+        "lng": 103.8395006,
+        "lat": 1.3161297,
+        "Type": "Customer",
+        "Sequence": 4,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "17:30 - 18:30",
+        "CustomerTel": "+65 43564 3006",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp7",
+        "LocationId": "54361"
+      },
+      {
+        "ID": "SFP8",
+        "TransportID": "T400",
+        "CustomerName": "FPG Xpress Parklane",
+        "Street": "11/12 Parklane Shopping Mall",
+        "City": "Singapore",
+        "PostalCode": "188307",
+        "lng": 103.8470134,
+        "lat": 1.3007791,
+        "Type": "Customer",
+        "Sequence": 5,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "18:30 - 19:30",
+        "CustomerTel": "+65 43564 3656",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162fp8",
+        "LocationId": "54362"
+      },
+      {
+        "ID": "SGP1",
+        "TransportID": "T500",
+        "CustomerName": "Distribution Center LDC3",
+        "Street": "Chinchwad",
+        "City": "Pune",
+        "PostalCode": "411019",
+        "lng": 73.7855,
+        "lat": 18.6316,
+        "Type": "Warehouse",
+        "Sequence": 1,
+        "Status": "Pending",
+        "StatusNext": "Next",
+        "DeliveryTimeSlot": "09:00 - 10:00",
+        "CustomerTel": "+91 9876545678",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162sgp1",
+        "LocationId": "54363"
+      },
+      {
+        "ID": "SGP2",
+        "TransportID": "T500",
+        "CustomerName": "Mr. Prajith",
+        "Street": "Hill Top, Bandra",
+        "City": "Mumbai",
+        "PostalCode": "400050",
+        "lng": 72.8256,
+        "lat": 19.062,
+        "Type": "Customer",
+        "Sequence": 2,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "14:30 - 15:30",
+        "CustomerTel": "+91 9976545668",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162sgp2",
+        "LocationId": "54364"
+      },
+      {
+        "ID": "SGP3",
+        "TransportID": "T500",
+        "CustomerName": "Mr. Pankaj",
+        "Street": "Kherani Road, Sakinaka",
+        "City": "Mumbai",
+        "PostalCode": "400072",
+        "lng": 72.8866,
+        "lat": 19.0955,
+        "Type": "Customer",
+        "Sequence": 3,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "16:30 - 17:30",
+        "CustomerTel": "+91 7532545656",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162sgp3",
+        "LocationId": "54365"
+      },
+      {
+        "ID": "SGP4",
+        "TransportID": "T500",
+        "CustomerName": "Mr. Abhijeet",
+        "Street": "Link Road, Borivali",
+        "City": "Mumbai",
+        "PostalCode": "400092",
+        "lng": 72.8523,
+        "lat": 19.2381,
+        "Type": "Customer",
+        "Sequence": 4,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "17:30 - 18:30",
+        "CustomerTel": "+91 8456545623",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162sgp4",
+        "LocationId": "54366"
+      },
+      {
+        "ID": "SGP5",
+        "TransportID": "T500",
+        "CustomerName": "Distribution Center LDC3",
+        "Street": "Chinchwad",
+        "City": "Pune",
+        "PostalCode": "411019",
+        "lng": 73.7855,
+        "lat": 18.6316,
+        "Type": "Customer",
+        "Sequence": 5,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "20:30 - 21:30",
+        "CustomerTel": "+91 9876545678",
+        "Hint": "Hints, comment, text",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "c9f3e049-5f57-1eed-9ed9-641cbd162sgp5",
+        "LocationId": "54367"
+      }
+    ],
+    "fus": [
+      {
+        "FUID": "4100000733",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I1",
+            "Description": "iPhone 15",
+            "Quantity": 1,
+            "Status": "Pending"
+          },
+          {
+            "ID": "I2",
+            "Description": "MacBook Air",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100000643",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I3L",
+            "Description": "iPhone 15",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          },
+          {
+            "ID": "I5L",
+            "Description": "iPad Pro",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000641",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I4L",
+            "Description": "MacBook Air",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000643",
+        "Direction": "Unload",
+        "StopID": "S2",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I3",
+            "Description": "iPhone 15",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          },
+          {
+            "ID": "I5",
+            "Description": "iPad Pro",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000624",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I10L",
+            "Description": "Monitor 28",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100000624",
+        "Direction": "Unload",
+        "StopID": "S2",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I10",
+            "Description": "Monitor 28",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100000633",
+        "Direction": "Load",
+        "StopID": "S2",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I6",
+            "Description": "Monitor 24",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          },
+          {
+            "ID": "I7",
+            "Description": "Keyboard",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000641",
+        "Direction": "Unload",
+        "StopID": "S3",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I4",
+            "Description": "MacBook Air",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000733",
+        "Direction": "Unload",
+        "StopID": "S4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I8",
+            "Description": "Monitor 24",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000633",
+        "Direction": "Unload",
+        "StopID": "S5",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I6U",
+            "Description": "Monitor 24",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          },
+          {
+            "ID": "I7U",
+            "Description": "Keyboard",
+            "Quantity": 1,
+            "Status": "Pending",
+            "ExceptionReason": ""
+          }
+        ]
+      },
+      {
+        "FUID": "4100000733",
+        "Direction": "Load",
+        "StopID": "S1T200",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I1T200",
+            "Description": "iPhone 15",
+            "Quantity": 1,
+            "Status": "Pending"
+          },
+          {
+            "ID": "I2T200",
+            "Description": "MacBook Air",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100000733",
+        "Direction": "Unload",
+        "StopID": "S2T200",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "I1T200",
+            "Description": "iPhone 15",
+            "Quantity": 1,
+            "Status": "Pending"
+          },
+          {
+            "ID": "I2T200",
+            "Description": "MacBook Air",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000733",
+        "Direction": "Load",
+        "StopID": "SFP1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI1L",
+            "Description": "Fair price Jasmine Rice",
+            "Quantity": 100,
+            "Status": "Pending"
+          },
+          {
+            "ID": "FPI2L",
+            "Description": "Sierra Frozen chicken legs",
+            "Quantity": 200,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000733",
+        "Direction": "Unload",
+        "StopID": "SFP2",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI1U",
+            "Description": "Fair price Jasmine Rice",
+            "Quantity": 100,
+            "Status": "Pending"
+          },
+          {
+            "ID": "FPI2U",
+            "Description": "Sierra Frozen chicken legs",
+            "Quantity": 200,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000734",
+        "Direction": "Load",
+        "StopID": "SFP4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI3L",
+            "Description": "Fair price Jasmine Rice",
+            "Quantity": 100,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000735",
+        "Direction": "Load",
+        "StopID": "SFP4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI4L",
+            "Description": "Sierra Frozen chicken legs",
+            "Quantity": 200,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000736",
+        "Direction": "Load",
+        "StopID": "SFP4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI5L",
+            "Description": "Fair price Crispy chicken half-cut mid spicy",
+            "Quantity": 20,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000737",
+        "Direction": "Load",
+        "StopID": "SFP4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI6L",
+            "Description": "Nescafe Gold Original NN- 200 gms",
+            "Quantity": 20,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000734",
+        "Direction": "Unload",
+        "StopID": "SFP5",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI3U",
+            "Description": "Fair price Jasmine Rice",
+            "Quantity": 50,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000734",
+        "Direction": "Unload",
+        "StopID": "SFP6",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI3U2",
+            "Description": "Fair price Jasmine Rice",
+            "Quantity": 50,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000735",
+        "Direction": "Unload",
+        "StopID": "SFP6",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI4U",
+            "Description": "Sierra Frozen chicken legs",
+            "Quantity": 200,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000736",
+        "Direction": "Unload",
+        "StopID": "SFP7",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI5U",
+            "Description": "Fair price Crispy chicken half-cut mid spicy",
+            "Quantity": 20,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4200000737",
+        "Direction": "Unload",
+        "StopID": "SFP7",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI6U",
+            "Description": "Nescafe Gold Original NN- 200 gms",
+            "Quantity": 20,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100049405",
+        "Direction": "Load",
+        "StopID": "SGP1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI7U",
+            "Description": "PEN DRIVE",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100049407",
+        "Direction": "Load",
+        "StopID": "SGP1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI8U",
+            "Description": "CHARGER",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100049408",
+        "Direction": "Load",
+        "StopID": "SGP1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI9U",
+            "Description": "PEN DRIVE",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100049405",
+        "Direction": "Unload",
+        "StopID": "SGP4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI10U",
+            "Description": "PEN DRIVE",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100049407",
+        "Direction": "Unload",
+        "StopID": "SGP2",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI11U",
+            "Description": "CHARGER",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100049408",
+        "Direction": "Unload",
+        "StopID": "SGP3",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "FPI12U",
+            "Description": "PEN DRIVE",
+            "Quantity": 1,
+            "Status": "Pending"
+          }
+        ]
+      }
+    ],
+    "eventReasons": [
+      {
+        "Key": "NOT_HOME",
+        "Description": "Customer Not Home",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "MISSING",
+        "Description": "Package missing",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "ADDRESS_WRONG",
+        "Description": "Wrong Address",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "ACCESS",
+        "Description": "Access restricted",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "CLOSED",
+        "Description": "Location closed",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "MISSING",
+        "Description": "Item Missing",
+        "Category": "ItemLoad"
+      },
+      {
+        "Key": "DAMAGED",
+        "Description": "Item Damaged",
+        "Category": "ItemLoad"
+      },
+      {
+        "Key": "REFUSED",
+        "Description": "Customer refused",
+        "Category": "ItemUnload"
+      },
+      {
+        "Key": "DAMAGED",
+        "Description": "Item Damaged",
+        "Category": "ItemUnload"
+      },
+      {
+        "Key": "TRAFFIC",
+        "Description": "Heavy traffic",
+        "Category": "DELAYED"
+      },
+      {
+        "Key": "VEHICLE",
+        "Description": "Vehicle issue",
+        "Category": "DELAYED"
+      },
+      {
+        "Key": "WEATHER",
+        "Description": "Weather conditions",
+        "Category": "DELAYED"
+      },
+      {
+        "Key": "ZPARTLY_LOADED",
+        "Description": "Partly Loaded",
+        "Category": "Load"
+      },
+      {
+        "Key": "ZPARTLY_UNLOADED",
+        "Description": "Partly Unloaded",
+        "Category": "Unload"
+      }
+    ]
+  }
+}
