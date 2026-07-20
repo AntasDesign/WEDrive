@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "id": "poland-liquid-products",
+  "name": "Poland Demo Liquid Products",
+  "version": "1.0.0",
+  "description": "SAP TM FO 6100015484 – cysterna dostarczająca PRODUCT X do 10 stacji paliw z magazynu SP_ZWSP (Sopot)",
+  "data": {
+    "transports": [
+      {
+        "ID": "T100",
+        "FO": "6100015484",
+        "Warehouse": "SP_ZWSP (Westernacher Polska)",
+        "LoadingTimeSlot": "13:00 - 14:30",
+        "Vehicle": "CYSTERNA_STANDARD",
+        "Driver": "John Doe",
+        "Status": "Ready for execution",
+        "TransportationOrderUUID": "7e097998-bbae-4700-b7c2-36eefc3a452c"
+      }
+    ],
+    "stops": [
+      {
+        "ID": "S1",
+        "TransportID": "T100",
+        "CustomerName": "SP_ZWSP — Westernacher Polska",
+        "Street": "Bohaterów Monte Cassino 61",
+        "City": "Sopot",
+        "PostalCode": "81-767",
+        "lng": 18.5587196350098,
+        "lat": 54.4526405334473,
+        "Type": "Warehouse",
+        "Sequence": 1,
+        "Status": "Pending",
+        "StatusNext": "Next",
+        "DeliveryTimeSlot": "13:00 - 14:30",
+        "CustomerTel": "",
+        "Hint": "Załadunek cysterny — 10 produktów, łącznie 22.011 m³ / 23.99 t",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "0e0b5c3e-c0b8-47d9-9f2a-c06097b07791",
+        "LocationId": "SP_ZWSP"
+      },
+      {
+        "ID": "S2",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 10 Petrol Station",
+        "Street": "Gdańska 22",
+        "City": "Trąbki Wielkie",
+        "PostalCode": "PL 83-034",
+        "lng": 18.5299606323242,
+        "lat": 54.1758003234863,
+        "Type": "Customer",
+        "Sequence": 2,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "15:15 - 15:45",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "9be8ad50-3784-4070-90a8-aca8ba42a0a6",
+        "LocationId": "DEMO_PL_10"
+      },
+      {
+        "ID": "S3",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 09 Petrol Station",
+        "Street": "Tczewska 22",
+        "City": "Pszczółki",
+        "PostalCode": "PL 83-032",
+        "lng": 18.6996898651123,
+        "lat": 54.1710205078125,
+        "Type": "Customer",
+        "Sequence": 3,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "15:45 - 16:15",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "ecc5c3ca-3955-4419-81a0-b365bfe13642",
+        "LocationId": "DEMO_PL_09"
+      },
+      {
+        "ID": "S4",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 08 Petrol Station",
+        "Street": "Wyzwolenia 21c",
+        "City": "Swarożyn",
+        "PostalCode": "PL 83-115",
+        "lng": 18.6639499664307,
+        "lat": 54.0379486083984,
+        "Type": "Customer",
+        "Sequence": 4,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "16:15 - 16:45",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "f715328c-a852-46e5-a0d0-1a730363754f",
+        "LocationId": "DEMO_PL_08"
+      },
+      {
+        "ID": "S5",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 07 Petrol Station",
+        "Street": "Al. Wojska Polskiego 458",
+        "City": "Malbork",
+        "PostalCode": "PL 82-200",
+        "lng": 19.0752601623535,
+        "lat": 54.0370788574219,
+        "Type": "Customer",
+        "Sequence": 5,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "17:00 - 17:30",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "f99d5fd3-b379-498c-ac74-c9f71c793e7d",
+        "LocationId": "DEMO_PL_07"
+      },
+      {
+        "ID": "S6",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 06 Petrol Station",
+        "Street": "Westerplatte 31",
+        "City": "Pasłęk",
+        "PostalCode": "PL 14-400",
+        "lng": 19.6581401824951,
+        "lat": 54.0558815002441,
+        "Type": "Customer",
+        "Sequence": 6,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "18:00 - 18:30",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "febc744d-b331-4dd1-951b-bb9ca83d2a68",
+        "LocationId": "DEMO_PL_06"
+      },
+      {
+        "ID": "S7",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 05 Petrol Station",
+        "Street": "Tysiąclecia 2",
+        "City": "Elbląg",
+        "PostalCode": "PL 82-300",
+        "lng": 19.4033107757568,
+        "lat": 54.1556282043457,
+        "Type": "Customer",
+        "Sequence": 7,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "18:30 - 19:00",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "bc4e67ef-2717-4241-84b3-6f44c63d48d7",
+        "LocationId": "DEMO_PL_05"
+      },
+      {
+        "ID": "S8",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 03 Petrol Station",
+        "Street": "Królewiecka 144",
+        "City": "Elbląg",
+        "PostalCode": "PL 82-300",
+        "lng": 19.4256000518799,
+        "lat": 54.1782112121582,
+        "Type": "Customer",
+        "Sequence": 8,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "18:45 - 19:15",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "f06c8587-f5c5-4122-8d91-081a05f089ab",
+        "LocationId": "DEMO_PL_03"
+      },
+      {
+        "ID": "S9",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 04 Petrol Station",
+        "Street": "Mazurska 11C",
+        "City": "Elbląg",
+        "PostalCode": "PL 82-300",
+        "lng": 19.3873195648193,
+        "lat": 54.1870803833008,
+        "Type": "Customer",
+        "Sequence": 9,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "19:00 - 19:30",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "a0ec4c78-fc97-486a-ab39-925d3e9880fc",
+        "LocationId": "DEMO_PL_04"
+      },
+      {
+        "ID": "S10",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 02 Petrol Station",
+        "Street": "Nowodworska 45 A",
+        "City": "Elbląg",
+        "PostalCode": "PL 82-300",
+        "lng": 19.3777599334717,
+        "lat": 54.1653213500977,
+        "Type": "Customer",
+        "Sequence": 10,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "19:30 - 20:00",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "29bc1b9f-524a-4489-b5d7-7edd48d4613a",
+        "LocationId": "DEMO_PL_02"
+      },
+      {
+        "ID": "S11",
+        "TransportID": "T100",
+        "CustomerName": "Demo Customer Poland 01 Petrol Station",
+        "Street": "Gdańska 9a",
+        "City": "Stegna",
+        "PostalCode": "PL 82-103",
+        "lng": 18.9796295166016,
+        "lat": 54.3333282470703,
+        "Type": "Customer",
+        "Sequence": 11,
+        "Status": "Pending",
+        "StatusNext": "",
+        "DeliveryTimeSlot": "20:45 - 21:15",
+        "CustomerTel": "",
+        "Hint": "",
+        "ArrivalTime": "",
+        "DepartureTime": "",
+        "DelayReason": "",
+        "DelayComment": "",
+        "DelayPhotos": [],
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Signature": "",
+        "StopUUID": "3ecff4d2-2393-4dc7-a047-70cb82dd40e4",
+        "LocationId": "DEMO_PL_01"
+      }
+    ],
+    "fus": [
+      {
+        "FUID": "4100070546",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P10-L",
+            "Description": "PRODUCT X — Product 10 DEMO PRODUCT D",
+            "Quantity": 1900,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070546",
+        "Direction": "Unload",
+        "StopID": "S2",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P10-U",
+            "Description": "PRODUCT X — Product 10 DEMO PRODUCT D",
+            "Quantity": 1900,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070547",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P20-L",
+            "Description": "PRODUCT X — Product 20 DEMO PRODUCT D",
+            "Quantity": 3000,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070547",
+        "Direction": "Unload",
+        "StopID": "S3",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P20-U",
+            "Description": "PRODUCT X — Product 20 DEMO PRODUCT D",
+            "Quantity": 3000,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070548",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P30-L",
+            "Description": "PRODUCT X — Product 30 DEMO PRODUCT D",
+            "Quantity": 1600,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070548",
+        "Direction": "Unload",
+        "StopID": "S4",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P30-U",
+            "Description": "PRODUCT X — Product 30 DEMO PRODUCT D",
+            "Quantity": 1600,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070549",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P40-L",
+            "Description": "PRODUCT X — Product 40 DEMO PRODUCT D",
+            "Quantity": 1500,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070549",
+        "Direction": "Unload",
+        "StopID": "S5",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P40-U",
+            "Description": "PRODUCT X — Product 40 DEMO PRODUCT D",
+            "Quantity": 1500,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070550",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P50-L",
+            "Description": "PRODUCT X — Product 50 DEMO PRODUCT D",
+            "Quantity": 1111,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070550",
+        "Direction": "Unload",
+        "StopID": "S6",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P50-U",
+            "Description": "PRODUCT X — Product 50 DEMO PRODUCT D",
+            "Quantity": 1111,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070551",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P60-L",
+            "Description": "PRODUCT X — Product 60 DEMO PRODUCT D",
+            "Quantity": 1400,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070551",
+        "Direction": "Unload",
+        "StopID": "S7",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P60-U",
+            "Description": "PRODUCT X — Product 60 DEMO PRODUCT D",
+            "Quantity": 1400,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070552",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P70-L",
+            "Description": "PRODUCT X — Product 70 DEMO PRODUCT D",
+            "Quantity": 3300,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070552",
+        "Direction": "Unload",
+        "StopID": "S9",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P70-U",
+            "Description": "PRODUCT X — Product 70 DEMO PRODUCT D",
+            "Quantity": 3300,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070553",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P80-L",
+            "Description": "PRODUCT X — Product 80 DEMO PRODUCT D",
+            "Quantity": 3200,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070553",
+        "Direction": "Unload",
+        "StopID": "S8",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P80-U",
+            "Description": "PRODUCT X — Product 80 DEMO PRODUCT D",
+            "Quantity": 3200,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070554",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P90-L",
+            "Description": "PRODUCT X — Product 90 DEMO PRODUCT D",
+            "Quantity": 2000,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070554",
+        "Direction": "Unload",
+        "StopID": "S10",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P90-U",
+            "Description": "PRODUCT X — Product 90 DEMO PRODUCT D",
+            "Quantity": 2000,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070555",
+        "Direction": "Load",
+        "StopID": "S1",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P100-L",
+            "Description": "PRODUCT X — Product 100 DEMO PRODUCT D",
+            "Quantity": 3000,
+            "Status": "Pending"
+          }
+        ]
+      },
+      {
+        "FUID": "4100070555",
+        "Direction": "Unload",
+        "StopID": "S11",
+        "Status": "Pending",
+        "ExceptionReason": "",
+        "ExceptionReasonKey": "",
+        "ExceptionComment": "",
+        "ExceptionPhotos": [],
+        "Items": [
+          {
+            "ID": "P100-U",
+            "Description": "PRODUCT X — Product 100 DEMO PRODUCT D",
+            "Quantity": 3000,
+            "Status": "Pending"
+          }
+        ]
+      }
+    ],
+    "eventReasons": [
+      {
+        "Key": "NOT_HOME",
+        "Description": "Customer Not Home",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "MISSING",
+        "Description": "Package missing",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "ADDRESS_WRONG",
+        "Description": "Wrong Address",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "ACCESS",
+        "Description": "Access restricted",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "CLOSED",
+        "Description": "Location closed",
+        "Category": "EXCEPTION"
+      },
+      {
+        "Key": "MISSING",
+        "Description": "Item Missing",
+        "Category": "ItemLoad"
+      },
+      {
+        "Key": "DAMAGED",
+        "Description": "Item Damaged",
+        "Category": "ItemLoad"
+      },
+      {
+        "Key": "REFUSED",
+        "Description": "Customer refused",
+        "Category": "ItemUnload"
+      },
+      {
+        "Key": "DAMAGED",
+        "Description": "Item Damaged",
+        "Category": "ItemUnload"
+      },
+      {
+        "Key": "TRAFFIC",
+        "Description": "Heavy traffic",
+        "Category": "DELAYED"
+      },
+      {
+        "Key": "VEHICLE",
+        "Description": "Vehicle issue",
+        "Category": "DELAYED"
+      },
+      {
+        "Key": "WEATHER",
+        "Description": "Weather conditions",
+        "Category": "DELAYED"
+      },
+      {
+        "Key": "ZPARTLY_LOADED",
+        "Description": "Partly Loaded",
+        "Category": "Load"
+      },
+      {
+        "Key": "ZPARTLY_UNLOADED",
+        "Description": "Partly Unloaded",
+        "Category": "Unload"
+      }
+    ]
+  }
+}
